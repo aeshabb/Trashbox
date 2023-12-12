@@ -1,0 +1,107 @@
+22:14:12.600 [main] ERROR org.itmo.Main - Error log message
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.itmo.entity.Person` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 3, column: 5] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3817) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.itmo.Main.main(Main.java:24) [classes/:?]
+20:48:18.360 [main] ERROR org.itmo.Main - Error log message
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.itmo.entity.Person` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 3, column: 5] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3817) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.itmo.Main.main(Main.java:25) [classes/:?]
+20:50:40.913 [main] INFO  org.itmo.Main - Успешно считали данные
+20:50:52.461 [main] ERROR org.itmo.Main - Error log message
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.itmo.entity.Person` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 3, column: 5] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3817) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.itmo.Main.main(Main.java:25) [classes/:?]
+20:52:08.696 [main] ERROR org.itmo.Main - Error log message
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.itmo.entity.Person` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 3, column: 5] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3817) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.itmo.Main.main(Main.java:25) [classes/:?]
+20:52:26.027 [main] ERROR org.itmo.Main - Error log message
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.itmo.entity.Person` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 3, column: 5] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3817) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.itmo.Main.main(Main.java:25) [classes/:?]
+20:53:51.375 [main] ERROR org.itmo.Main - Error log message
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.itmo.entity.Person` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 3, column: 5] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3817) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.itmo.Main.main(Main.java:25) [classes/:?]
+20:54:00.428 [main] INFO  org.itmo.Main - Успешно считали данные
+20:54:44.053 [main] INFO  org.itmo.Main - Успешно считали данные
+21:16:59.243 [main] INFO  org.itmo.Main - Успешно считали данные
+21:21:00.274 [main] INFO  org.itmo.Main - Успешно считали данные
