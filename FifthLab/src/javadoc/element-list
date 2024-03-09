@@ -1,0 +1,10 @@
+org.itmo
+org.itmo.command
+org.itmo.controller
+org.itmo.database
+org.itmo.entity
+org.itmo.newStructure
+org.itmo.output
+org.itmo.reader
+org.itmo.runner
+org.itmo.validator

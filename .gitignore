@@ -1,1 +1,9 @@
 SecondLab/bin/
+ThirdLab/.idea/
+.idea/
+out/
+/*.iml
+SecondLab/SecondLab.iml
+ThirdLab/ThirdLab.iml
+Trashbox.iml
+FirstLab/FirstLab.iml

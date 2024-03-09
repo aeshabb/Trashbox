@@ -1,46 +1,44 @@
-import java.text.DecimalFormat;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+
+import static java.lang.Math.*;
 
 public class Main {
     public static void main(String[] args) {
-    int[] c1 = new int[10];
+        short[] c1 = new short[18];
 
-    for(int i = 0; i < 10; i++) {
-        c1[i] = i*2 + 6;
-    }
+        for (short i = 20; i > 2; i--) {
+            c1[20-i] = i;
+        }
+        double[] x = new double[14];
+        double min = -8;
+        double max = 15;
 
-    float[] x = new float[17];
-    float min = -15;
-    float max = 2;
-
-    for(int i = 0; i < 17; i++){
-        Random rand = new Random();
-        float num = min + rand.nextFloat()*(max - min);
-        x[i] = num;
-    }
-    double[][] c = new double[10][17];
-    for(int i = 0; i < 10; i++) {
-        for(int j = 0; j < 17; j++) {
-            if(c1[i] == 8) {
-                double k = Math.pow((Math.asin(Math.pow((Math.E), -(Math.abs(x[j]))))), ((Math.tan(Math.pow(Math.E, x[j])) + 1) / 4));
-                c[i][j] = k;
-            }
-            else if(c1[i] == 6 || c1[i] == 12 || c1[i] == 14 || c1[i] == 16 || c1[i] == 22) {
-                c[i][j] = Math.sin(Math.pow((0.5 / (Math.pow((0.5 / x[j]), x[j]) - 1)), Math.sin(x[j])));
-            }
-            else {
-                c[i][j] = Math.pow((0.5 * (Math.pow(Math.asin((x[j] - 6.5) / 17), 2) / (0.25 - Math.tan(Math.tan(Math.pow((x[j] / 2), 2)))))), 2);
+        for (int i = 0; i < 14; ++i) {
+            double num = min + random() * (max - min);
+            x[i] = num;
+        }
+        double[][] c = new double[18][14];
+        for (int i = 0; i < 18; i++) {
+            for (int j = 0; j < 14; j++) {
+                if (c1[i] == 3) {
+                    c[i][j] = pow((sin(asin((x[j] + 3.5) / 23))), (pow(2 * 2 * x[j], 3) / 2));
+                } else if (c1[i] == 5 | c1[i] == 9 | c1[i] == 12 | c1[i] == 13 | c1[i] == 15 | c1[i] == 16 | c1[i] == 17 | c1[i] == 18 | c1[i] == 19) {
+                    c[i][j] = tan(pow(x[j], ((double) 1 / 3))) / 2;
+                } else {
+                    c[i][j] = asin(pow(E, pow((-pow((pow(2 * abs(x[j]), 2)), (double) 1 / 2)), (double) 1 / 3)));
+                }
             }
         }
-    }
-    for(int i = 0; i < 10; i++) {
-        for(int j = 0; j < 17; j++) {
-            String formatDouble = new DecimalFormat("#0.00").format(c[i][j]);
-            System.out.print(formatDouble + " ");
+        for (int i = 0; i < 18; i++) {
+            for (int j = 0; j < 14; j++) {
+                if (c[i][j] > 10000) {
+                    System.out.printf("%.2e", c[i][j]);
+                    System.out.print(" ");
+                } else {
+                    System.out.printf("%.2f", c[i][j]);
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("\n");
         }
-        System.out.println("\n");
     }
-}
 }

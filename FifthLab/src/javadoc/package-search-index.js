@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.itmo"},{"l":"org.itmo.command"},{"l":"org.itmo.controller"},{"l":"org.itmo.database"},{"l":"org.itmo.entity"},{"l":"org.itmo.newStructure"},{"l":"org.itmo.output"},{"l":"org.itmo.reader"},{"l":"org.itmo.runner"},{"l":"org.itmo.validator"}];updateSearchResults();
