@@ -48,7 +48,6 @@ public class Runner {
     private void initInvoker(CommandPrinter printer) {
         this.routeStorage = new RouteStorage((TreeSet<Route>) ReaderCSV.getRouteSet(), ReaderCSV.getInitTimeSet());
         Receiver receiver = new Receiver(routeStorage);
-        this.commandPrinter = printer;
         Map<String, Command> commandMap = fillCommandMap(receiver, printer);
         invoker = new Invoker(commandMap);
     }
