@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №1</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="content-container">
+    <header class="header">
+        <div class="header-container">
+            <div>Беля Алексей Иванович P3217</div>
+            <div></div>
+            <div>408256</div>
+        </div>
+    </header>
+    <main class="main">
+        <div id="toast" class="toast"></div>
+        <div class="main__left-column">
+            <div class="main__block">
+                <canvas id="canvas" width="500" height="500"></canvas>
+            </div>
+            <div class="main__block">
+                <div class="row">Параметры</div>
+                <div class="row">
+                    <div>Выберите X:</div>
+                    <div><input name="x-value" type="checkbox" value="-3">-3</div>
+                    <div><input name="x-value" type="checkbox" value="-2">-2</div>
+                    <div><input name="x-value" type="checkbox" value="-1">-1</div>
+                    <div><input name="x-value" type="checkbox" value="0">0</div>
+                    <div><input name="x-value" type="checkbox" value="1">1</div>
+                    <div><input name="x-value" type="checkbox" value="2">2</div>
+                    <div><input name="x-value" type="checkbox" value="3">3</div>
+                    <div><input name="x-value" type="checkbox" value="4">4</div>
+                    <div><input name="x-value" type="checkbox" value="5">5</div>
+                </div>
+                <div class="row">
+                    <div>Введите Y:</div>
+                    <input name="y-value" id="y-input" type="text" placeholder="значение от -3 до 5" maxlength="12">
+                </div>
+                <div class="row">
+                    <div>Введите R (1-4):</div>
+                    <input name="r-value" id="r-input" type="text" placeholder="от 1 до 4" maxlength="12">
+                </div>
+            </div>
+            <button class="main__block submit_button" id="submit">Проверить</button>
+            <button class="main__block clear_button" id="clearResults">Очистить результаты</button>
+        </div>
+
+        <div>
+            <div class="table-container">
+                <table id="result-table">
+                    <thead>
+                    <tr>
+                        <th>X</th>
+                        <th>Y</th>
+                        <th>R</th>
+                        <th>Результат</th>
+                        <th>Текущее время</th>
+                        <th>Время выполнения</th>
+                    </tr>
+                    </thead>
+                    <tbody id="result-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="js/script.js"></script>
+<script src="js/canvas.js"></script>
+</body>
+</html>
